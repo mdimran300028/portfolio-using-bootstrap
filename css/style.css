@@ -1,0 +1,142 @@
+body{background-color: #E4FF92;}
+.header-height{height: 150px;}
+.logo{background-color:#E4FF92; border-bottom: 1px solid #5F9EA0; text-align: center;}
+.logo img{width: 80px; height: 80px; margin: 33px auto;}
+
+.banner{background-color: #5F9EA0;}
+.banner a{text-decoration: none;}
+.heading{
+    text-align: center;
+    color: #f0f8ff;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.slogan{
+    text-align: center;
+    color: #e4ff92;
+}
+.menu-height{height: 50px; background-color:#E4FF92;}
+.main-menu{
+    list-style-type: none;
+    text-align: center;
+
+}
+.main-menu li{
+    display: inline;
+    margin-right: -5px;
+}
+.main-menu li a{
+    display: inline-block;
+    padding: 13px 30px;
+    background-color: #E4FF92;
+    color: #5F9EA0;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.main-menu li a:hover{
+    background-color: #5F9EA0;
+    color: #E4FF92;
+}
+
+.content-height{min-height: 600px;}
+.sidebar{
+    background-color: #E4FF92;
+    border-top: 1px solid #5F9EA0;
+    border-bottom: 1px solid #5F9EA0;
+}
+.sidebar h4{color:#001547;}
+input[type=search], input[type=text], input[type=email], input[type=text], textarea{
+    height: 25px;
+    font-size: 15px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.search{width: 100%; margin-bottom: 10px;}
+.reset, .submit{width: 48.5%;}
+textarea{
+    height: 140px;
+}
+.content{background-color: #5F9EA0;}
+.content h2{
+    color: #F0F8FF;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2.5px 2.5px 2px purple;
+}
+.content h4{color: #F0F8FF; font-weight: bold;}
+.vission{}
+.vission h4{margin-left: 40px;}
+.vission ul{margin-left: 60px;}
+.basic-info{margin-left: 80px;}
+.education{}
+.education table{margin-left: 80px;}
+.education table th{padding: 5px; text-align: center;}
+.education table td{padding: 5px; text-align: center;}
+.experience{}
+.experience ol{margin-left: 70px;}
+.lang-skill{}
+.lang-skill ol{margin-left: 70px;}
+.comp-skill{margin-bottom: 10px;}
+.comp-skill table{margin-left: 80px;}
+.image{padding: 0;}
+.contact address{margin-left: 80px; font-style: italic;}
+.contact p{margin-left: 80px;}
+.footer-height{height: 30px; background-color:#E4FF92; text-align: center; padding-top: 8px;}
+
+@media screen and (max-width:1280px){
+    .heading{
+        margin-top: 15px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:820px){
+    .heading{
+        margin-top: 15px;
+        font-size: 25px;
+    }
+    .slogan{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:392px ) and (max-width:575px){
+    .heading{
+        margin-top: 15px;
+        font-size: 30px;
+    }
+    .menu-height{height: unset;}
+    .main-menu{
+        padding: 0px;
+    }
+    .main-menu li{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    .main-menu li a{
+        display: block;
+    }
+}
+@media screen and (max-width: 391px){
+    .heading{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .slogan{
+        font-size: 16px;
+    }
+    .menu-height{height: unset;}
+    .main-menu{
+        padding: 0px;
+    }
+    .main-menu li{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    .main-menu li a{
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
