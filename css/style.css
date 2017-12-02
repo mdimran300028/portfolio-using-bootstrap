@@ -38,7 +38,6 @@ body{background-color: #E4FF92;}
     background-color: #5F9EA0;
     color: #E4FF92;
 }
-
 .content-height{min-height: 600px;}
 .sidebar{
     background-color: #E4FF92;
@@ -46,18 +45,9 @@ body{background-color: #E4FF92;}
     border-bottom: 1px solid #5F9EA0;
 }
 .sidebar h4{color:#001547;}
-input[type=search], input[type=text], input[type=email], input[type=text], textarea{
-    height: 25px;
-    font-size: 15px;
-    padding-left: 5px;
-    margin-bottom: 5px;
-    width: 100%;
-}
 .search{width: 100%; margin-bottom: 10px;}
-.reset, .submit{width: 48.5%;}
-textarea{
-    height: 140px;
-}
+.reset, .submit{width: 48.0%; float: left; margin-bottom:10px; }
+.reset{margin-right: 4%;}
 .content{background-color: #5F9EA0;}
 .content h2{
     color: #F0F8FF;
@@ -71,16 +61,13 @@ textarea{
 .vission ul{margin-left: 60px;}
 .basic-info{margin-left: 80px;}
 .education{}
-.education table{margin-left: 80px;}
-.education table th{padding: 5px; text-align: center;}
-.education table td{padding: 5px; text-align: center;}
 .experience{}
 .experience ol{margin-left: 70px;}
 .lang-skill{}
 .lang-skill ol{margin-left: 70px;}
 .comp-skill{margin-bottom: 10px;}
 .comp-skill table{margin-left: 80px;}
-.image{padding: 0;}
+.image{padding: 5px; border-radius: 0px;}
 .contact address{margin-left: 80px; font-style: italic;}
 .contact p{margin-left: 80px;}
 .footer-height{height: 30px; background-color:#E4FF92; text-align: center; padding-top: 8px;}
@@ -139,4 +126,5 @@ textarea{
         padding-top: 5px;
         padding-bottom: 5px;
     }
+    .basic-info{margin-left: 20px;}
 }

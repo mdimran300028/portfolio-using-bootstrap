@@ -51,17 +51,17 @@
 
             <h4>Search the Query:</h4>
             <form>
-                <input type="search" placeholder="write here. ."><br/>
-                <input type="submit" value="Search" class="search btn-info">
+                <input type="search" placeholder="write here. ." class="form-control"><br/>
+                <input type="submit" value="Search" class="search btn-info form-control">
             </form>
 
             <h4>Send Massage:</h4>
             <form>
-                <input type="text" name="sender-name" placeholder="Your name"><br/>
-                <input type="email" name="email" placeholder="Your email address"><br/>
-                <textarea cols="15" rows="5">Write your massage here</textarea><br/>
-                <input type="reset" value="Reset" class="btn-info reset">
-                <input type="submit" value="Submit" class="btn-info submit">
+                <input type="text" name="sender-name" placeholder="Your name" class="form-control"><br/>
+                <input type="email" name="email" placeholder="Your email address" class="form-control"><br/>
+                <textarea cols="15" rows="5" class="form-control">Your massage here</textarea><br/>
+                <input type="reset" value="Reset" class="btn-info reset form-control">
+                <input type="submit" value="Submit" class="btn-info submit form-control">
             </form>
         </div>
         <!--Sidebar part end-->
@@ -110,35 +110,39 @@
             <hr/>
             <div class="education">
                 <h2>Educational Qualification:</h2>
-                <table border="1">
-                    <tr>
-                        <th>Class:</th>
-                        <th>Group/Subject:</th>
-                        <th>Board/Institute:</th>
-                        <th>Result:</th>
-                        <th>Batch:</th>
-                    </tr>
-                    <tr>
-                        <td>SSC</td>
-                        <td>Science</td>
-                        <td>Madrasah</td>
-                        <td>5.00</td>
-                        <td>2006-2007</td>
-                    </tr>
-                    <tr>
-                        <td>HSC</td>
-                        <td>Science</td>
-                        <td>Dhaka</td>
-                        <td>4.80</td>
-                        <td>2008-2009</td>
-                    </tr>
-                    <tr>
-                        <td>B.Sc.(Hons)</td>
-                        <td>Physics</td>
-                        <td>University of Dhaka</td>
-                        <td>2.84</td>
-                        <td>2010-2011</td>
-                    </tr>
+                <table class="table table-responsive-xl table-bordered table-hover" >
+                    <thead class="table-primary">
+                        <tr>
+                            <th>Class:</th>
+                            <th>Group/Subject:</th>
+                            <th>Board/Institute:</th>
+                            <th>Result:</th>
+                            <th>Batch:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>SSC</td>
+                            <td>Science</td>
+                            <td>Madrasah</td>
+                            <td>5.00</td>
+                            <td>2006-2007</td>
+                        </tr>
+                        <tr>
+                            <td>HSC</td>
+                            <td>Science</td>
+                            <td>Dhaka</td>
+                            <td>4.80</td>
+                            <td>2008-2009</td>
+                        </tr>
+                        <tr>
+                            <td>B.Sc.(Hons)</td>
+                            <td>Physics</td>
+                            <td>University of Dhaka</td>
+                            <td>2.84</td>
+                            <td>2010-2011</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
             <hr/>
